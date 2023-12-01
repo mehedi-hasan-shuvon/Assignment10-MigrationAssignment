@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::table('products', function (Blueprint $table) {
             //
-            $table->string('category', 50)->nullable()->after('description');
+            $table->string('category', 50)->after('description');
         });
     }
 
